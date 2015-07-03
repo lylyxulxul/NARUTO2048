@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" manifest="cache.appcache">
+<head>
+  <meta charset="utf-8">
+  <title>火影忍者 2048</title>
+
+  <link href="style/main.css" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:400,600,700' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="keywords" content="HTML,CSS,Javascript,Make your own 2048,Play 2048">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="format-detection" content="telephone=no" />
+
+  <meta property="og:title" content="2048 game"/>
+  <meta property="og:site_name" content="2048 game"/>
+  <meta property="og:description" content="Play Udacity 2048. Then, make your own 2048 game in Udacity's 2 hour mini course for programming beginners!"/>
+  <meta property="og:image" content="http://gabrielecirulli.github.io/2048/meta/og_image.png"/>
+</head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">NARUTO 2048</h1>
+      <div class="scores-container">
+        <div class="score-container">0</div>
+        <div class="best-container">0</div>
+      </div>
+    </div>
+
+    <div class="above-game">
+      <p class="game-intro">
+      <a class="restart-button">New Game</a>
+     火影忍者陪伴我走过了初中这三年的时光，现在它要完结了。我们便以这样的方式来纪念它把！</p>
+      
+    </div>
+
+    <div class="pre-game">
+      <p class="learn">如果感兴趣，点击下面的按钮；你也可以做一个属于你自己的“ 2048 ”！</p><a class="learn" href="https://www.udacity.com/course/ud248">Take the Class!</a>
+    </div>
+
+
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+	        <a href="http://www.udacity.com/course/ud248/"class="learn learn-low">Take the Class!</a>
+          <a class="retry-button">Play Again</a>
+          <div class="score-sharing"></div>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container">
+
+      </div>
+    </div>
+
+
+    <p class="game-explanation">
+      <strong class="important">火影忍者:</strong> 火影忍者创始于2002年，作家岸本齐史说：“我原本只是想画一个和拉面有关的漫画，没想到…(^-^)” <a href="http://baike.baidu.com/link?url=zeSULt-vAMNEaXGuD32MRKXw2H1s_UOAu8f4h9v1MvjetY5AySUFSbc1Wz96OpMIawhl3SDk0p_gKSt3V33MAzCEt5BZHf8nrJaNnkmpY8i" target="_blank"><button>点击查看详情</button>:</a>. 
+    </p>
+    <hr>
+    <p class="game-explanation">
+      <strong class="important">: 风靡:</strong><i>作为日本漫画史上无人能与其平齐，当之无愧的Queen！有着对青少年们无敌的魅力。他不管是在中国，日本，还是在美国，都是青少年们最喜爱的漫画之一。他被30个以上的国家译为本国语言在自己国家内销售。每一个剧场版也都会在上映时引起狂潮。</i>
+    </p>
+    <hr>
+    <p>
+    <strong>看完了介绍，就让我们来玩游戏吧，看看你能不能拼出带土。 ( 2048 ) </strong>
+    </p>
+  </div>
+
+  <script src="js/bind_polyfill.js"></script>
+  <script src="js/classlist_polyfill.js"></script>
+  <script src="js/animframe_polyfill.js"></script>
+  <script src="js/keyboard_input_manager.js"></script>
+  <script src="js/html_actuator.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/tile.js"></script>
+  <script src="js/local_storage_manager.js"></script>
+  <script src="js/game_manager.js"></script>
+  <script src="js/application.js"></script>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</body>
+</html>
